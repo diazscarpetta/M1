@@ -1,0 +1,64 @@
+/* importamos la fuente 'Ubuntu' desde nuestra carpeta 'fonts' */
+@font-face {
+    font-family: "Ubuntu";
+    src: url("../fonts/Ubuntu-Title.ttf") format("truetype");
+}
+/* 3 maneras de seleccionar los elementos HTML desde CSS */
+/* 1: Nombre de etiqueta HTML
+2: Por ID: elemento con propiedades especificas
+3: Por Clase: elementos con propiedades comunes */
+/* --------------------------------------------------- */
+/* Selector universal: aplica propiedades a todos los elementos */
+*{
+    margin: 0;
+    /* no tiene en cuenta la suma de anchos de las propiedades
+    'border' ni 'padding' */
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Dancing Script', cursive;
+}
+/* ------------ ESTILOS DE CABECERA ----------------*/
+/* SELECTOR POR NOMBRE DE ETIQUETA */
+header{
+    border: 2px #000 solid;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* SELECTOR POR ID (nombre precedido por simbolo '#') */
+#logo{
+    width: 250px;
+}
+header nav ul li{
+    list-style-type: none;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li a{
+    border: 1px solid #000;
+    padding: 5px 15px;
+    margin-left: 5px;
+    color: #000;
+    text-decoration: none;
+}
+/* SELECTOR POR CLASE (nombre precedido por simbolo '.') */
+/* .imagen{
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+} */
+/* ejemplo para comprobar box-sizing */
+/* main div{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    margin: 20px;
+    border: 50px solid #000;
+    padding: 100px;
+} */
+main p{
+    font-family: Ubuntu, sans-serif;
+}
