@@ -11,8 +11,7 @@
 /* Selector universal: aplica propiedades a todos los elementos */
 *{
     margin: 0;
-    /* no tiene en cuenta la suma de anchos de las propiedades
-    'border' ni 'padding' */
+    /* no tiene en cuenta la suma de anchos de las propiedades 'border' ni 'padding' */
     box-sizing: border-box;
 }
 body{
