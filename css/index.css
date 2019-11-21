@@ -60,6 +60,8 @@ header nav ul li a{
 } */
 /* ------------ ESTILOS DEL CONTENIDO ----------------*/
 /* TODO: añade aqui los estilos necesarios para confeccionar la tabla que se indica en el Challenge */
-main p{
-    font-family: Ubuntu, sans-serif;
+table{
+
+    border:1px;
+
 }
