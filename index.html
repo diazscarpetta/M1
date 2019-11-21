@@ -1,74 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Web HTML5 M1 UF1</title>
-        <!-- Ejemplo de CSS incrustado -->
-        <style type="text/css">
-        /* dentro de la etiqueta, añadimos codigo CSS */
-            /* header{
-                background-color: grey;
-            } */
-        </style>
-        <!-- Link a nuestro CSS enlazado (index.css) -->
-        <link rel="stylesheet" href="css/index.css">
-        <!-- tipografia GFonts -->
-        <!-- <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> -->
-    </head>
-    <body>
-        <!-- ESTRUCTURA BÁSICA EN HTML5 -->
-        <!-- CABECERA -->
-        <!-- ejemplo CSS en linea -->
-        <!-- <header style="background-color: grey;"> -->
-        <header>
-            <!-- imagen -->
-            <!-- src: ruta de la imagen
-            alt: texto que aparece cuando no encuentra imagen (importante para SEO) -->
-            <img src="img/logo.png" alt="logo" title="Imagen logo" id="logo">
-            <!-- menu de navegación -->
-            <nav>
-                <!-- ul: contenedor de la lista
-                li: cada elemento de la lista -->
-                <ul>
-                    <!-- a: enlace link con atributo "href", que nos configura la ruta externa ó interna -->
-                    <li><a href="">Link1</a></li>
-                    <li><a href="">Link2</a></li>
-                    <li><a href="">Link3</a></li>
-                    <li><a href="">Link4</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <table>
-  <tr>
-    <th>MÓDULO</th>
-    <th>U. FORMATIVA</th>
-    <th>NOMBRE</th>
-    <th>FECHA EVAL.</th>
-  </tr>
-  <tr>
-      <td></td>
-    <td>UF1 </td>
-    <td> Nombre </td>
-    <td>Fecha</td>
-  </tr>
-  <tr>
-      <td></td>
-    <td> UF2  </td>
-    <td>Nombre</td>
-    <td> Fecha</td>
-  </tr>
+<head>
+    <meta charset="utf-8">
+    <title>Web HTML5 M1 UF1</title>
+    <!-- Ejemplo de CSS incrustado -->
+    <style type="text/css">
+    /* dentro de la etiqueta, añadimos codigo CSS */
+    /* header{
+    background-color: grey;
+    } */
+
+    #uf {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    #uf td, #uf th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    #uf tr:nth-child(even){background-color: #f2f2f2;}
+
+    #uf tr:hover {background-color: #ddd;}
+
+    #uf th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #4CAF50;
+        color: white;
+    }
+    </style>
+    <!-- Link a nuestro CSS enlazado (index.css) -->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- tipografia GFonts -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> -->
+</head>
+<body>
+    <!-- ESTRUCTURA BÁSICA EN HTML5 -->
+    <!-- CABECERA -->
+    <!-- ejemplo CSS en linea -->
+    <!-- <header style="background-color: grey;"> -->
+    <header>
+        <!-- imagen -->
+        <!-- src: ruta de la imagen
+        alt: texto que aparece cuando no encuentra imagen (importante para SEO) -->
+        <img src="img/logo.png" alt="logo" title="Imagen logo" id="logo">
+        <!-- menu de navegación -->
+        <nav>
+            <!-- ul: contenedor de la lista
+            li: cada elemento de la lista -->
+            <ul>
+                <!-- a: enlace link con atributo "href", que nos configura la ruta externa ó interna -->
+                <li><a href="">Link1</a></li>
+                <li><a href="">Link2</a></li>
+                <li><a href="">Link3</a></li>
+                <li><a href="">Link4</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <table id="uf">
+            <tr>
+                <th>MÓDULO</th>
+                <th>U. FORMATIVA</th>
+                <th>NOMBRE</th>
+                <th>FECHA EVAL.</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>UF</td>
+                <td> 1841</td>
+                <td>03 DIC 2019</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td> UF </td>
+                <td>1842</td>
+                <td> 20 DIC 2019</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td> UF </td>
+                <td>1843</td>
+                <td>16 ENE 2020</td>
+            </tr>
+            <td>2</td>
+            <td> UF </td>
+            <td>1844</td>
+            <td>16 MAR 2020</td>
+        </tr>
+        <td></td>
+        <td> UF  </td>
+        <td>1845</td>
+        <td>16 ENE 2020</td>
+    </tr>
+    <td></td>
+    <td> UF </td>
+    <td>1846</td>
+    <td>01 ABR 2020</td>
+</tr>
+
 </table>
 
 
 
 
-            <!-- TODO: Elimina todo el contenido de '<main>' y añade la tabla que se indica en el Challenge. -->
+<!-- TODO: Elimina todo el contenido de '<main>' y añade la tabla que se indica en el Challenge. -->
 
 
 
-        </main>
-        <footer>
-        </footer>
-    </body>
+</main>
+<footer>
+</footer>
+</body>
 </html>
